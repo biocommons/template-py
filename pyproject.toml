@@ -7,23 +7,23 @@ dev = [
   # code quality & formatting
   "deptry>=0.25.1",
   "mypy>=2.4.0",
-  "nox>=2026.8.17",
-  "prek>=0.5.5",
-  "ruff>=0.17.0",
+  "nox>=2026.10.20",
+  "prek>=0.5.7",
+  "ruff>=0.17.3",
   "toml-sort>=0.25.0",
   "uv-bump>=0.6.0",
 
   # testing
-  "pytest>=9.1.1",
+  "pytest>=9.2.0",
   "pytest-cov>=7.1.0",
   "pytest-recording>=0.14.0",
-  "vcrpy>=8.3.0",
+  "vcrpy>=9.2.0",
 
   # documentation
   "mkdocs>=1.6.1",
   "mkdocs-awesome-nav>=3.3.0",
-  "mkdocs-material>=9.7.7",
-  "mkdocstrings[python]>=1.0.7",
+  "mkdocs-material>=9.8.0",
+  "mkdocstrings[python]>=1.0.8",
 
   # misc dev tools
   "ipython>=9.17.1",

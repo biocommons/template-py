@@ -106,7 +106,7 @@ upgrade-deps: ## Upgrade installed dependencies
 .PHONY: bump-deps
 bump-deps: ## Bumping versions of installed dependencies
 	$(call INFO_MESSAGE, "Bumping dependency versions")
-	uv-bump
+	uv run uv-bump
 
 ############################################################################
 #= CLEANUP
